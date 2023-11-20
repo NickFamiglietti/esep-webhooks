@@ -10,7 +10,7 @@ def lambda_handler(event, context):
         data = json.loads(post_body)
         
        
-        target_url = 'link'  
+        target_url = 'https://hooks.slack.com/services/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'  
         
         
         response = requests.post(target_url, json=data)
